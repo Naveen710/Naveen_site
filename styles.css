@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root{
+--primary-color: #ffb22d;
+    --off-white: #fffbeb;
+    --dark-gray: #6b7280;
+
+}
 body {
     font-family: 'Montserrat', sans-serif;
+}
+hr{
+    margin: 2rem 0rem;;
 }
 
 .container {
@@ -13,4 +22,19 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding : 0.5rem 1rem ;
+   
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius : 0.5rem;
+    color : var(--off-white);
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius : 0.5rem;
+    border: 1px solid var(--primary-color);
 }
