@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <h1 style="color:red">Naveen's component library</h1>
+    <h1>Naveen's component library</h1>
     <p>
         I am attending neog.campand I want to make a library which would make all my projects look good and consistent.
     </p>
@@ -70,7 +70,7 @@
 
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link" href="/">Home</a></li>
+                <a class="link link-active" href="/">Home</a></li>
             <li class="list-item-inline">
                 <a class="link" href="/">Projects</a></li>
             <li class="list-item-inline">
@@ -81,33 +81,44 @@
     </nav>
     <hr>
     <h2>@header</h2>
-    <header>
-        <img src="images/projects-page.svg">
-        <h1>heading inside header </h1>
+    <header class="hero">
+        <img class="hero-img" src="images/projects-page.svg">
+        <h1 class="hero-heading">Naveen Eggadi</h1>
     </header>
     <hr>
 
     <h2>@Section</h2>
 
-    <section>
-        <h3>white background</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white background</h1>
+            <p>The AWS Cloud spans 84 Availability Zones within 26 geographic regions around the world, with announced
+                plans for 24 more Availability Zones and 8 more AWS Regions in Australia, Canada, India, Israel, New
+                Zealand, Spain, Switzerland, and United Arab Emirates (UAE).
+            </p>
+        </div>
     </section>
-    <section>
-        <h3> off white background</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1> off white background</h1>
+            <p>The AWS Cloud spans 84 Availability Zones within 26 geographic regions around the world, with announced
+                plans for 24 more Availability Zones and 8 more AWS Regions in Australia, Canada, India, Israel, New
+                Zealand, Spain, Switzerland, and United Arab Emirates (UAE).
+            </p>
+        </div>
     </section>
 
     <hr>
     <h2>@footer</h2>
-    <footer>
-        <div>some small Text inside footer</div>
-        <ul>
-            <li>
-                Socialone
-            </li>
-            <li>SocialTwo</li>
-            <li>socialThree</li>
+    <footer class="footer">
+        <div class="footer-header">some small Text inside add new  footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Github</a></li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Twitter</a></li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Instagram</a></li>
         </ul>
     </footer>
 
