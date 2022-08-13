@@ -134,6 +134,10 @@ hr {
 .footer .link{
     color: whitesmoke;
 }
+.footer .footer-header{
+    font-weight:bolder;
+    font-size: large;
+}
 .footer ul{
     padding-inline-start:0px;
 }

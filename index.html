@@ -5,65 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <!--  1st way of adding css or styling <style>
-        body{
-            color:red;
-        }
-    </style> -->
-    <link href="styles.css" rel="stylesheet" />
+    <title>NaveenEggadi</title>
+    <link href="/styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Naveen's component library</h1>
-    <p>
-        I am attending neog.campand I want to make a library which would make all my projects look good and consistent.
-    </p>
-    <hr>
-    <h2>@typography</h2>
-    <h1>The biggest heading h1</h1>
-    <h2>the second biggest heading h2</h2>
-    <p>Let me show you the normal text. This is the free flowing and will wrap at the end like a paragraph</p>
-    <p>
-        This is a paragragh will have <strong>bold</strong>
-        text </p>
-    <small>This is relatively smaller text</small>
-    <hr>
-    <h2>@containers</h2>
-    <h3>@fluid container</h3>
-    <div class="container">this is a fluid container. This will go till the end of the page</div>
-    <h3>@centered container</h3>
-    <div class="container container-center">this is a centered container. This will go till the the specified width
-    </div>
-    <hr>
-    <h2>@links</h2>
-    <a class="link primary-link" href="/"> primary link</a>
-    <a class="link secondary-link" href="/">Secondary Link</a>
-
-    <hr>
-    <h2>@lists</h2>
-    <h3>unordered lists</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">item one</li>
-        <li class="list-item-inline">item Two</1i>
-        <li class="list-item-inline">item Three</li>
-    </ul>
-    <hr>
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline item one</li>
-        <li class="list-item-inline">Inline item Two</1i>
-        <li class="list-item-inline">Inline item Three</li>
-    </ul>
-    <hr>
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>bread</1i>
-        <li>eggs</li>
-    </ol>
-    <hr>
-    <h2>@nav</h2>
     <nav class="navigation container">
         <div class="nav-brand">IAmWebDeveloper</div>
         <!-- <div class="nav-brand">Welcome to my Portfolio</div> -->
@@ -72,63 +18,63 @@
             <li class="list-item-inline">
                 <a class="link link-active" href="/">Home</a></li>
             <li class="list-item-inline">
-                <a class="link" href="/">Projects</a></li>
+                <a class="link" href="projects.html">Projects</a></li>
             <li class="list-item-inline">
-                <a class="link" href="/">Blogs</a></li>
+                <a class="link" href="Blogs.html">Blogs</a></li>
             <li class="list-item-inline">
-                <a class="link" href="/">Reachme</a></li>
+                <a class="link" href="#reach-me">Reachme</a></li>
         </ul>
     </nav>
-    <hr>
-    <h2>@header</h2>
     <header class="hero">
-        <img class="hero-img" src="images/projects-page.svg">
+        <img class="hero-img" src="/images/pro.svg">
         <h1 class="hero-heading">Naveen Eggadi</h1>
     </header>
-    <hr>
-
-    <h2>@Section</h2>
-
     <section class="section">
         <div class="container container-center">
-            <h1>white background</h1>
-            <p>The AWS Cloud spans 84 Availability Zones within 26 geographic regions around the world, with announced
-                plans for 24 more Availability Zones and 8 more AWS Regions in Australia, Canada, India, Israel, New
-                Zealand, Spain, Switzerland, and United Arab Emirates (UAE).
+            <h1>I Am</h1>
+            <p>an aspiring Web developer. Looking for my days to be filled up with solving logical problems and coding challenges by which a new feature is created or an existing issue gets resolved, which makes my day.
             </p>
+            
+    
         </div>
     </section>
     <section class="section ow">
         <div class="container container-center">
-            <h1> off white background</h1>
-            <p>The AWS Cloud spans 84 Availability Zones within 26 geographic regions around the world, with announced
-                plans for 24 more Availability Zones and 8 more AWS Regions in Australia, Canada, India, Israel, New
-                Zealand, Spain, Switzerland, and United Arab Emirates (UAE).
+            <h1>technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, Javascript, NodeJS, ReactJS, Java and Web Hoisting
             </p>
         </div>
     </section>
-
-    <hr>
-    <h2>@footer</h2>
-    <footer class="footer">
-        <div class="footer-header">some small Text inside add new  footer</div>
+    <section class="section">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p>I like to showcase my work and thus,you can see my projects hosted online.
+            </p>
+             <a class="link primary-link" href="/">Browse Projects</a>
+    
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>I'm also woking on some technical and non technical blogs.I like to documnet my journey of learning.
+            </p>
+            <a class="link secondary-link" href="/">Read Blogs</a>
+        </div>
+    </section>
+    
+    <footer class="footer" id="reach-me">
+        <div class="footer-header">Would you like to connect with me? I am available on</div>
         <ul class="social-links list-non-bullet">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Github</a></li>
+                <a class="link" href="https://github.com/Naveen710" target="_blank">Github</a></li>
             <li class="list-item-inline">
-                <a class="link" href="/">Twitter</a></li>
+                <a class="link" href="https://twitter.com/home">Twitter</a></li>
             <li class="list-item-inline">
-                <a class="link" href="/">Instagram</a></li>
+                <a class="link" href="https://www.linkedin.com/in/naveen-eggadi-a9b3631a4" target="_blank">LinkedIn</a></li>
         </ul>
     </footer>
 
-
-
-
-
-
-
-    <!-- <div style="height: 30vh;"></div> -->
 
 </body>
 
