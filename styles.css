@@ -47,6 +47,21 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+.blog-btn{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  align-items: center;
+    border-radius: 0.5rem;
+    color: var(--off-white);
+    text-decoration: none;
+   max-width: 120px;
+   width: 500px;
+    padding: 0.5rem 1rem;
+  
+
+}
 
 .project-date{
     
@@ -54,7 +69,16 @@ hr {
     margin-top: 0.8rem;
     font-size: medium;
 }
-
+.blog-date{
+    
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+    font-size: medium;
+    text-align: center;
+}
+.blog-heading{
+    text-align: center;
+}
 
 /**lists**/
 .list-non-bullet {
@@ -95,6 +119,7 @@ hr {
     border-radius: 0.5rem;
     padding: 0.2rem 0.5rem;
 }
+
     
 /**header**/
 .hero{
@@ -111,21 +136,23 @@ hr {
     margin:auto;
     height:auto;
 }
+
 .hero .hero-heading{
     padding-top: 1rem;
-    padding-bottom: 0rem;
+    padding-bottom: 1.3rem;
     text-align:center;
     font-weight: bolder;
     color: darkgray;
     display: block;
 }
 .section{
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 .section h1{
     text-align: center;
 
 }
+
 .ow{
     background-color: var(--off-white);
 }
